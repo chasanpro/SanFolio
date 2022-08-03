@@ -1,17 +1,18 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
+import 'package:sanfolio/error.dart';
 
 import 'firebase_options.dart';
 
-// ...
+// ...flutter build web --web-renderer
 
 // ignore: non_constant_identifier_names
-
 
 Future<void> main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
-);
+  );
 
   runApp(const MyApp());
 }
@@ -26,15 +27,15 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const Errorpage(),
     );
   }
 }
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key, required this.title}) : super(key: key);
-
-  final String title;
+  const MyHomePage({
+    Key? key,
+  }) : super(key: key);
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
@@ -52,9 +53,6 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-      ),
       body: Center(
         child: SingleChildScrollView(
           child: Column(
@@ -117,6 +115,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 height: 300,
               ),
               Container(
+                child: Lottie.network(
+                    'https://raw.githubusercontent.com/xvrh/lottie-flutter/master/example/assets/Mobilo/A.json'),
                 color: Color.fromARGB(255, 18, 19, 16),
                 height: 300,
               ),
@@ -136,7 +136,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 height: 300,
               ),
               Container(
-                child: Center(
+                child: const Center(
                     child: Text(
                   'CHASANPRO',
                   style: TextStyle(color: Colors.white, fontSize: 34),
