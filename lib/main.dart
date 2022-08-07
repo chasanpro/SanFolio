@@ -63,23 +63,11 @@ class _MyHomePageState extends State<MyHomePage> {
                 height: 300,
               ),
               Container(
-                color: Color.fromARGB(255, 196, 204, 188),
+                color: const Color.fromARGB(255, 196, 204, 188),
                 height: 300,
               ),
               Container(
-                color: Color.fromARGB(255, 18, 19, 16),
-                height: 300,
-              ),
-              Container(
-                color: Colors.lightGreenAccent,
-                height: 300,
-              ),
-              Container(
-                color: Color.fromARGB(255, 196, 204, 188),
-                height: 300,
-              ),
-              Container(
-                color: Color.fromARGB(255, 18, 19, 16),
+                color: const Color.fromARGB(255, 18, 19, 16),
                 height: 300,
               ),
               Container(
@@ -87,23 +75,11 @@ class _MyHomePageState extends State<MyHomePage> {
                 height: 300,
               ),
               Container(
-                color: Color.fromARGB(255, 196, 204, 188),
+                color: const Color.fromARGB(255, 196, 204, 188),
                 height: 300,
               ),
               Container(
-                color: Color.fromARGB(255, 18, 19, 16),
-                height: 300,
-              ),
-              Container(
-                color: Colors.lightGreenAccent,
-                height: 300,
-              ),
-              Container(
-                color: Color.fromARGB(255, 196, 204, 188),
-                height: 300,
-              ),
-              Container(
-                color: Color.fromARGB(255, 18, 19, 16),
+                color: const Color.fromARGB(255, 18, 19, 16),
                 height: 300,
               ),
               Container(
@@ -111,13 +87,37 @@ class _MyHomePageState extends State<MyHomePage> {
                 height: 300,
               ),
               Container(
-                color: Color.fromARGB(255, 196, 204, 188),
+                color: const Color.fromARGB(255, 196, 204, 188),
+                height: 300,
+              ),
+              Container(
+                color: const Color.fromARGB(255, 18, 19, 16),
+                height: 300,
+              ),
+              Container(
+                color: Colors.lightGreenAccent,
+                height: 300,
+              ),
+              Container(
+                color: const Color.fromARGB(255, 196, 204, 188),
+                height: 300,
+              ),
+              Container(
+                color: const Color.fromARGB(255, 18, 19, 16),
+                height: 300,
+              ),
+              Container(
+                color: Colors.lightGreenAccent,
+                height: 300,
+              ),
+              Container(
+                color: const Color.fromARGB(255, 196, 204, 188),
                 height: 300,
               ),
               Container(
                 child: Lottie.network(
                     'https://raw.githubusercontent.com/xvrh/lottie-flutter/master/example/assets/Mobilo/A.json'),
-                color: Color.fromARGB(255, 18, 19, 16),
+                color: const Color.fromARGB(255, 18, 19, 16),
                 height: 300,
               ),
               Container(
@@ -132,7 +132,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     color: Colors.white,
                   ),
                 )),
-                color: Color.fromARGB(255, 18, 19, 16),
+                color: const Color.fromARGB(255, 18, 19, 16),
                 height: 300,
               ),
               Container(
@@ -141,7 +141,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   'CHASANPRO',
                   style: TextStyle(color: Colors.white, fontSize: 34),
                 )),
-                color: Color.fromARGB(255, 0, 0, 0),
+                color: const Color.fromARGB(255, 0, 0, 0),
                 height: 300,
               ),
               Container(
